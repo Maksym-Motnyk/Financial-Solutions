@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="head-logo" href="#">
+          <img class="head-img" src="./img/head-logo.png" alt="head-logo" />
+          WeFinance
+        </a>
+        <nav>
+          <ul class="header-list">
+            <li>
+              <a class="header-list-item header-list-item-app" href="#">Home</a>
+            </li>
+            <li><a class="header-list-item" href="#about">About Us</a></li>
+            <li>
+              <a class="header-list-item" href="#service">How it Works</a>
+            </li>
+            <li><a class="header-list-item" href="#plan">Our Services</a></li>
+            <li>
+              <a class="header-list-item" href="#">More</a>
+
+              <svg
+                width="11"
+                height="6"
+                viewBox="0 0 11 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.99584 0.501473L9.6631 0.166414C9.55837 0.0617757 9.41905 0.00412948 9.27014 0.00412948C9.12132 0.00412948 8.98183 0.0617757 8.87711 0.166414L5.08138 3.96231L1.28127 0.162202C1.17671 0.0575637 1.03722 0 0.888396 0C0.739573 0 0.6 0.0575637 0.495361 0.162202L0.162533 0.495196C-0.0541776 0.711741 -0.0541776 1.06447 0.162533 1.28102L4.68702 5.82178C4.79157 5.92633 4.9309 6 5.08105 6H5.08278C5.23169 6 5.37101 5.92625 5.47557 5.82178L9.99584 1.29332C10.1006 1.18877 10.158 1.04523 10.1582 0.896407C10.1582 0.747502 10.1006 0.605946 9.99584 0.501473Z"
+                  fill="white"
+                />
+              </svg>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-btn">Contact Us</button>
+        <button class="burger-btn">
+          <svg
+            width="22"
+            height="20"
+            viewBox="0 0 22 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.785714 4.1875H21.2143C21.6482 4.1875 22 3.85173 22 3.4375V1.5625C22 1.14827 21.6482 0.8125 21.2143 0.8125H0.785714C0.351754 0.8125 0 1.14827 0 1.5625V3.4375C0 3.85173 0.351754 4.1875 0.785714 4.1875ZM0.785714 11.6875H21.2143C21.6482 11.6875 22 11.3517 22 10.9375V9.0625C22 8.64827 21.6482 8.3125 21.2143 8.3125H0.785714C0.351754 8.3125 0 8.64827 0 9.0625V10.9375C0 11.3517 0.351754 11.6875 0.785714 11.6875ZM0.785714 19.1875H21.2143C21.6482 19.1875 22 18.8517 22 18.4375V16.5625C22 16.1483 21.6482 15.8125 21.2143 15.8125H0.785714C0.351754 15.8125 0 16.1483 0 16.5625V18.4375C0 18.8517 0.351754 19.1875 0.785714 19.1875Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container hero-container">
+          <h1 class="hero-title">Financial Solutions</h1>
+          <p class="hero-text">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics
+          </p>
+          <button class="hero-btn">Let’s Talk</button>
+          <img class="hero-man" src="./img/hero-man.jpg" alt="hero-man" />
+          <ul class="hero-list">
+            <li class="hero-list-item">
+              <svg width="172" height="172">
+                <use href="./img/icons.svg#icon-icon"></use>
+              </svg>
+              <div class="hero-wrap">
+                <p class="number">18</p>
+                <p class="hero-wrap-text">Years Experience</p>
+              </div>
+            </li>
+            <li class="hero-list-item">
+              <svg width="172" height="172">
+                <use href="./img/icons.svg#icon-icon"></use>
+              </svg>
+              <div class="hero-wrap">
+                <p class="number">240+</p>
+                <p class="hero-wrap-text">Completed Projects</p>
+              </div>
+            </li>
+            <li class="hero-list-item">
+              <svg width="172" height="172">
+                <use href="./img/icons.svg#icon-icon"></use>
+              </svg>
+              <div class="hero-wrap">
+                <p class="number">9.5/10</p>
+                <p class="hero-wrap-text">Average rating</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="about" class="firm-section">
+        <div class="container firm-container">
+          <div>
+            <img class="firm-img" src="./img/firm-img.jpg" alt="firm-img" />
+            <a class="firm-link" href="#">Our Firm</a>
+            <h2 class="firm-title">We are Agile.Constantly Focused</h2>
+            <p class="firm-text">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics
+            </p>
+            <p class="firm-text firm-text-app">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics
+            </p>
+            <button class="firm-btn">Read About Us</button>
+          </div>
+          <ul class="firm-list">
+            <li>
+              <img class="firm-image" src="./img/Group 110.jpg" alt="Group" />
+            </li>
+            <li>
+              <img
+                class="firm-image firm-image-app"
+                src="./img/Group 111.png"
+                alt="Group"
+              />
+            </li>
+            <li>
+              <img class="firm-image" src="./img/Group 113.png" />
+            </li>
+            <li>
+              <img
+                class="firm-image firm-image-app"
+                src="./img/Group 112.png"
+                alt="Group"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="service" class="service-section">
+        <div class="container service-container">
+          <a class="service-link" href="#">Our Services</a>
+          <h2 class="service-title">What We Offer</h2>
+          <ul class="service-list">
+            <li class="service-list-item">
+              <svg
+                class="service-icons"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M76 53.107H62.4626C57.492 53.1039 53.463 49.0781 53.46 44.1074C53.46 39.1368 57.492 35.111 62.4626 35.1079H76"
+                  stroke="#3029D9"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M63.9941 43.9014H62.9518"
+                  stroke="#3029D9"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M29.548 15H58.4514C68.1427 15 75.9994 22.8567 75.9994 32.548V56.5478C75.9994 66.2391 68.1427 74.0958 58.4514 74.0958H29.548C19.8567 74.0958 12 66.2391 12 56.5478V32.548C12 22.8567 19.8567 15 29.548 15Z"
+                  stroke="#3029D9"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  opacity="0.4"
+                  d="M27.1671 30.1757H45.221"
+                  stroke="#5975FF"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p class="service-number-one">#1</p>
+              <h3 class="service-list-title">Financial Report</h3>
+              <p class="service-text">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia.
+              </p>
+            </li>
+            <li class="service-list-item service-list-item-two">
+              <svg
+                class="service-icons"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.4"
+                  d="M12.1875 56.0388C12.1875 56.0388 12.6789 62.0529 12.7931 63.9492C12.9453 66.4926 13.9281 69.3335 15.5683 71.3059C17.8832 74.1019 20.61 75.0881 24.2503 75.095C28.5308 75.1019 59.6567 75.1019 63.9371 75.095C67.5774 75.0881 70.3042 74.1019 72.6192 71.3059C74.2594 69.3335 75.2421 66.4926 75.3978 63.9492C75.5086 62.0529 76 56.0388 76 56.0388"
+                  stroke="white"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M31.8837 20.9243V19.6405C31.8837 15.4188 35.3025 12 39.5242 12H48.4588C52.677 12 56.0993 15.4188 56.0993 19.6405L56.1027 20.9243"
+                  stroke="white"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M43.9919 60.1947V55.717"
+                  stroke="white"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 31.5112V43.5083C18.637 47.8856 26.5889 50.9515 35.3159 52.1661C36.3609 48.3562 39.797 45.5637 43.9737 45.5637C48.0846 45.5637 51.5899 48.3562 52.5658 52.2007C61.3274 50.9861 69.3104 47.9202 75.982 43.5083V31.5112C75.982 25.6494 71.2655 20.9294 65.4037 20.9294H22.6129C16.7511 20.9294 12 25.6494 12 31.5112Z"
+                  stroke="white"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p class="service-number-one service-number-one-app">#2</p>
+              <h3 class="service-list-title service-list-title-app">
+                Manage Investments
+              </h3>
+              <p class="service-text service-text-app">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia.
+              </p>
+            </li>
+            <li class="service-list-item service-list-item-tree">
+              <svg
+                class="service-icons"
+                width="88"
+                height="88"
+                viewBox="0 0 88 88"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.4"
+                  d="M29.1887 38.2454V60.1978"
+                  stroke="white"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  opacity="0.4"
+                  d="M44.1219 27.741V60.1977"
+                  stroke="white"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  opacity="0.4"
+                  d="M58.8113 49.8457V60.1977"
+                  stroke="white"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M58.9943 12H29.0057C18.5524 12 12 19.3987 12 29.8725V58.1275C12 68.6013 18.5219 76 29.0057 76H58.9943C69.4781 76 76 68.6013 76 58.1275V29.8725C76 19.3987 69.4781 12 58.9943 12Z"
+                  stroke="white"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p class="service-number-one service-number-one-app">#3</p>
+              <h3 class="service-list-title service-list-title-app">
+                Financial Report
+              </h3>
+              <p class="service-text service-text-app">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="plan" class="financial-plan-section">
+        <div class="container financial-container">
+          <h2 class="financial-title">
+            Financial Planning For Safe Investment
+          </h2>
+          <div class="fin-icons-wrap">
+            <svg
+              width="51"
+              height="16"
+              viewBox="0 0 51 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M50 8L1 8"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M8 1L1 8L8 15"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg
+              width="51"
+              height="16"
+              viewBox="0 0 51 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8L50 8"
+                stroke="#131A4A"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M43 1L50 8L43 15"
+                stroke="#131A4A"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <img class="fin-image" src="./img/fin-img.jpg" alt="fin-img" />
+          <div class="fin-wrap">
+            <a class="fin-wrap-link" href="#">Key Features</a>
+            <h2 class="fin-wrap-title">Manage Your Finances From one Place</h2>
+            <p class="fin-wrap-text">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics
+            </p>
+            <p class="fin-wrap-text fin-wrap-text-app">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics
+            </p>
+            <button class="fin-wrap-btn">Check All Fitures</button>
+            <img
+              class="finance-img"
+              src="./img/finance-img.jpg"
+              alt="finance-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container section-container">
+          <div class="section-wrap">
+            <ul class="section-list">
+              <li class="section-list-item">
+                <img
+                  class="section-list-img"
+                  src="./img/solutions.jpg"
+                  alt="solutions"
+                />
+              </li>
+              <li class="section-list-item">
+                <img
+                  class="section-list-img"
+                  src="./img/support.jpg"
+                  alt="support"
+                />
+              </li>
+            </ul>
+            <ul class="section-list-item-app">
+              <li class="section-list-item">
+                <img class="section-list-img" src="./img/team.png" alt="team" />
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a class="section-link" href="#">Start Now</a>
+            <h2 class="section-title">
+              Start Now & Make Your Finances Clear & Organized
+            </h2>
+            <p class="section-text">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics
+            </p>
+            <p class="section-text section-text-app">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="news-section">
+        <div class="container news-container">
+          <a class="news-link" href="#">Our Services</a>
+          <h2 class="news-title">Latest News</h2>
+          <ul class="news-list">
+            <li class="news-list-item">
+              <img
+                class="news-img"
+                src="./img/Mask Group (3).jpg"
+                alt="news-image"
+              />
+              <div class="news-list-wrap">
+                <p class="news-date">January 01, 2021</p>
+                <h3 class="news-list-title">
+                  How to Start a Successful in 2020
+                </h3>
+                <p class="news-text">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia.
+                </p>
+                <button class="news-btn">Read More</button>
+              </div>
+            </li>
+            <li class="news-list-item news-list-item-app">
+              <img class="news-img" src="./img/Mask Group (1).jpg" alt="Mask" />
+              <div class="news-list-wrap">
+                <p class="news-date">January 01, 2021</p>
+                <h3 class="news-list-title">
+                  Grow Your Business with Email Marketing
+                </h3>
+                <p class="news-text">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia.
+                </p>
+                <button class="news-btn">Read More</button>
+              </div>
+            </li>
+            <li class="news-list-item news-list-item-app">
+              <img
+                class="news-img"
+                src="./img/Mask Group (2).jpg"
+                alt="Mask Group"
+              />
+              <div class="news-list-wrap">
+                <p class="news-date">January 01, 2021</p>
+                <h3 class="news-list-title">
+                  The 4 Pillars Every Online Business
+                </h3>
+                <p class="news-text">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia.
+                </p>
+                <button class="news-btn">Read More</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="testimoni-section">
+        <div class="container testimoni-container">
+          <div class="testimoni-wrap">
+            <a class="testimoni-link" href="#">Testimoni</a>
+            <h2 class="testimoni-title">What Our Clients Say</h2>
+            <img
+              class="testimoni-img"
+              src="./img/testmoni-img.png"
+              alt="testmoni-img"
+            />
+            <p class="testimoni-text">
+              “Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics”
+            </p>
+            <h3 class="petra-berger">Petra Berger</h3>
+            <p class="petra-berger-ceo">CEO PT Washington</p>
+            <div class="testimoni-icons-wrap">
+              <svg
+                width="51"
+                height="16"
+                viewBox="0 0 51 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M50 8L1 8"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8 1L1 8L8 15"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <a class="testimoni-icon" href="#">
+                <svg
+                  width="51"
+                  height="16"
+                  viewBox="0 0 51 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 8L50 8"
+                    stroke="#131A4A"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M43 1L50 8L43 15"
+                    stroke="#131A4A"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="testimoni-wrapper">
+            <a class="testimoni-wrapper-link" href="#">Contact With Us</a>
+            <h2 class="testimoni-wrapper-title">
+              Interested? <br /> Let’s Start a Projects Together
+            </h2>
+            <button class="testimoni-wrapper-btn">Contact Us</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <!-- <div class="foot-wrapper"> -->
+        <div>
+          <a class="footer-logo" href="#">
+            <img
+              class="footer-img"
+              src="./img/footer-img.jpg"
+              alt="footer-img"
+            />
+            WeFinance
+          </a>
+          <p class="footer-text">
+            WeFinance is the highest rated expert team in the world
+          </p>
+        </div>
+        <div class="footer-wrap">
+          <ul class="footer-list">
+            <li class="footer-list-item">Home</li>
+            <li class="footer-list-item">About Us</li>
+            <li class="footer-list-item">How it Works</li>
+          </ul>
+          <ul class="footer-list">
+            <li class="footer-list-item">Our Services</li>
+            <li class="footer-list-item">Contact Us</li>
+            <li class="footer-list-item">FAQ</li>
+          </ul>
+          <ul class="footer-list">
+            <li class="footer-list-item">Our Team</li>
+            <li class="footer-list-item">Careers</li>
+          </ul>
+        </div>
+        <ul class="footer-media">
+          <li class="footer-media-item">
+            <a href="#">
+              <img
+                class="footer-media-img"
+                src="./img/facebook.jpg"
+                alt="facebook"
+              />
+            </a>
+          </li>
+          <li class="footer-media-item">
+            <a href="#">
+              <img
+                class="footer-media-img"
+                src="./img/instagram.jpg"
+                alt="instagram"
+              />
+            </a>
+          </li>
+          <li class="footer-media-item">
+            <a href="#">
+              <img
+                class="footer-media-img"
+                src="./img/twiter.jpg"
+                alt="twiter"
+              />
+            </a>
+          </li>
+        </ul>
+        <!-- </div> -->
+        <div class="foot-wrapper">
+          <p class="footer-help">Help</p>
+          <p class="footer-help">Term & Conditions</p>
+          <p class="footer-help">Privacy</p>
+        </div>
+        <p class="footer-help foot-app">©2021 WeFinance</p>
+      </div>
+    </footer>
+  </body>
+</html>
